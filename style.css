@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: black;
+}
+header {
+    /* box-sizing: border-box; */
+    position: sticky;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    background-color: #05163f;
+    color: #ccfbf1;
+     
+}
+#home {
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   min-height: 50vh;
+   background-color: #e0f2fe;
+   padding:80px 20px ;
+}
+#home h1 {
+    font-size: 50px;
+
+    margin-bottom: 15px;
+}
+#home h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#home p {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+#about {
+    background-color: white;
+    padding: 80px 10%;
+    margin-left: 15px;
+}
+#about p {
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+
+}
+#about h1{
+     max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #0f172a;
+
+}
+ 
+#projects {
+    background-color: lightslategray;
+    padding: 120px;
+}
+#projects {
+    text-align: left;
+    font-size:15px ;
+    margin-left: 15px;
+    }
+#projects h1{
+    text-align: center;
+    color: #0f172a;
+}
+#projects h2{
+    margin-left:300px ;
+    color: #0f172a;
+}
+
+#projects p{
+   margin-left: 500px;
+
+}
+#skills {
+    padding: 80px;
+    text-align: center;
+    background-color: #ccfbf1;
+}
+#skills h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #0f172a;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.skill-box {
+width: 150px;
+padding: 25px 10px;
+border: 2px solid black;
+border-radius: 10px;
+font-size: 20px;
+font-weight: bold;
+background-color: white;
+}
+#contact {
+    padding: 80px;
+    text-align: center;
+    background-color: #f8fafc;
+}
+#contact h1 {
+    color: #0f172a;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input
+textarea {
+    padding: 12px;
+    font-size: 16px;
+}
+textarea {
+    height: 70px;
+}
+
+
+button {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+
+    padding: 12px 25px;
+
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+
+}
+.project-items img {
+width:300px;
+height:150px;
+margin-left:350px;
+}
+#projects {
+    padding: 50px;
+}
+
+.project {
+    margin-bottom: 40px;
+    display:flex;
+}
+
+.profile {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}*
+
